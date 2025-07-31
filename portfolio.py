@@ -217,7 +217,7 @@ def main():
     # --- Information & Methodology Section ---
     st.header("Information & Methodology")
     with st.expander("Click to view Methodology Details"):
-        st.markdown("""
+        st.markdown(r"""
         This interactive application allows users to analyse and compare the performance of user-defined portfolios against an optimised portfolio (Maximum Sharpe Ratio). The analysis is based on historical weekly price data for Gold, Nifty 50, and S&P 500, denominated in USD.
 
         ### Data Sources:
